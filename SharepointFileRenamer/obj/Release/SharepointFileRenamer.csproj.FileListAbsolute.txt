@@ -1,0 +1,16 @@
+c:\users\jordan mryyan\documents\visual studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\bin\Release\SharepointFileRenamer.exe.config
+c:\users\jordan mryyan\documents\visual studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\bin\Release\SharepointFileRenamer.exe
+c:\users\jordan mryyan\documents\visual studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\bin\Release\SharepointFileRenamer.pdb
+c:\users\jordan mryyan\documents\visual studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\obj\Release\SharepointFileRenamer.UserInterface.resources
+c:\users\jordan mryyan\documents\visual studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\obj\Release\SharepointFileRenamer.Properties.Resources.resources
+c:\users\jordan mryyan\documents\visual studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\obj\Release\SharepointFileRenamer.csproj.GenerateResource.Cache
+c:\users\jordan mryyan\documents\visual studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\obj\Release\SharepointFileRenamer.exe
+c:\users\jordan mryyan\documents\visual studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\obj\Release\SharepointFileRenamer.pdb
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\bin\Release\SharepointFileRenamer.exe.config
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\bin\Release\SharepointFileRenamer.exe
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\bin\Release\SharepointFileRenamer.pdb
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\obj\Release\SharepointFileRenamer.UserInterface.resources
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\obj\Release\SharepointFileRenamer.Properties.Resources.resources
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\obj\Release\SharepointFileRenamer.csproj.GenerateResource.Cache
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\obj\Release\SharepointFileRenamer.exe
+C:\Users\Jordan\Documents\Visual Studio 2017\Projects\SharepointFileRenamer\SharepointFileRenamer\obj\Release\SharepointFileRenamer.pdb
