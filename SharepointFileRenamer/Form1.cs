@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Security.AccessControl;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,8 +10,6 @@ namespace SharepointFileRenamer
 {
     public partial class UserInterface : Form
     {
-        readonly string DESKTOP = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-
         public UserInterface()
         {
             InitializeComponent();
@@ -25,8 +17,10 @@ namespace SharepointFileRenamer
 
         private void uxOpenFileButton_Click(object sender, EventArgs e)
         {
-            FolderBrowserDialog folderBrowser = new FolderBrowserDialog();
-            folderBrowser.Description = "Select a folder to copy.";
+            FolderBrowserDialog folderBrowser = new FolderBrowserDialog()
+            {
+                Description = "Select a folder to copy."
+            };
 
             if (folderBrowser.ShowDialog() == DialogResult.OK)
             {
@@ -71,14 +65,14 @@ namespace SharepointFileRenamer
                 {
                     file.MoveTo(temppath);
                 }
-                catch(IOException ex)
+                catch(IOException)
                 {
                     string path = Path.Combine(destDirName, TimeStampFile(cleanFileName, file));
                     try
                     {
                         file.MoveTo(path);
                     }
-                    catch(Exception innerEx)
+                    catch(Exception)
                     {
                         if (this.InvokeRequired)
                         {
@@ -89,7 +83,7 @@ namespace SharepointFileRenamer
 
                     fileExisted = true;
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     uxLog.AppendText(file.Name + " was not copied!", Color.Red);
                 }
@@ -120,7 +114,7 @@ namespace SharepointFileRenamer
             }
         }
 
-        private string logLine(int numDashes)
+        private string LogLine(int numDashes)
         {
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < numDashes; i++)
@@ -163,8 +157,10 @@ namespace SharepointFileRenamer
 
         private void uxOpenDestButton_Click(object sender, EventArgs e)
         {
-            FolderBrowserDialog folderBrowser = new FolderBrowserDialog();
-            folderBrowser.Description = "Select a destination to copy to.";
+            FolderBrowserDialog folderBrowser = new FolderBrowserDialog()
+            {
+                Description = "Select a destination to copy to."
+            };
 
             if (folderBrowser.ShowDialog() == DialogResult.OK)
             {
